@@ -32,7 +32,7 @@ func main() {
 }
 ```
 
-When your code runs, execution will stop at `debugger.Break()`. Your watch variable `i` will be visible in the browser window:
+When your code runs, execution will stop at `debugger.Break()`. Your watch variable `i` will be visible in the browser window located at `http://localhost:8080` (as specified in the code above - the port is configurable):
 
 ![Breakpoint #1](https://raw.githubusercontent.com/simon-whitehead/go-debug/master/sample/img/breakpoint1.png)
 
