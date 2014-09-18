@@ -44,6 +44,8 @@ Clicking `Continue` will allow you to move to the next "breakpoint", and your wa
 
 The debugger will jump between files, as long as you declare a global `Debugger` instance.
 
+If you place a "breakpoint" in a loop/recurring function and you don't want to hit it, you can click `Skip` when you hit that breakpoint and the debugger will never break there again (for the rest of the debugging session).
+
 Some of the runtime statistics cannot be considered gospel. Because the debugger requires pointers to watch variables, they will be rooted and escape analysis will mean the stacks won't grow quite as you expect.
 
 I am aware this is very basic. Its just more "traditional" for people coming to Go from other languages with more interactive debuggers.
